@@ -2,6 +2,7 @@ package sankari
 
 import (
 	"testing"
+	"fmt"
 )
 
 func TestUpotus(t *testing.T) {
@@ -33,7 +34,7 @@ func TestUpotus(t *testing.T) {
 	}
 
 	if max_aika > 10 {
-		t.Logf("Onnistuit, mutta jos se ei olisi ollut zombi, niin se olisi kyllä jo Atlantilla.")
+		fmt.Println("Onnistuit, mutta jos se ei olisi ollut zombi, niin se olisi kyllä jo Atlantilla.")
 	}
 
 }
