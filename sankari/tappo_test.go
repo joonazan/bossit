@@ -1,7 +1,7 @@
 package sankari
 
 import (
-	"github.com/joonazan/go-opas/bossit/cyberdemon"
+	"github.com/joonazan/bossit/cyberdemon"
 	"testing"
 )
 
