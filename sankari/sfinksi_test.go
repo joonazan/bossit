@@ -26,7 +26,7 @@ func TestSphinx(t *testing.T) {
 			t.Fatal("Et vastannut sfinksille!")
 		}
 		if !s.oikein {
-			t.Fatal("Vastasit kysymykseen '%s' väärin!")
+			t.Fatalf("Vastasit kysymykseen '%s' väärin!", s.question)
 		}
 		totalTime += s.time
 	}
@@ -50,5 +50,5 @@ func (s *Sphinx) KuunteleKirjain() (l rune) {
 
 func (s *Sphinx) Vastaa(vastaus string) {
 	s.vastattu = true
-	s.oikein = vastaus != s.answer
+	s.oikein = vastaus == s.answer
 }
