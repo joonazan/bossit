@@ -3,7 +3,11 @@ package cyberdemon
 import "fmt"
 
 type Cyberdemon interface {
+
+	// Ampuu kyberdemonia raketinheittimellä
 	Ammu()
+
+	// Palauttaa onko kyberdemoni kuollut ampumisen johdosta
 	Kuollut() bool
 }
 
