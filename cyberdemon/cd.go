@@ -1,7 +1,5 @@
 package cyberdemon
 
-import "fmt"
-
 type Cyberdemon interface {
 
 	// Ampuu kyberdemonia raketinheittimellä
