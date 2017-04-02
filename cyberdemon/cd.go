@@ -20,10 +20,6 @@ type cyberdemon int
 
 func (c *cyberdemon) Ammu() {
 	*c--
-	fmt.Println("AAAGH!")
-	if c.Kuollut() {
-		fmt.Println("Kyberdemoni räjähti.")
-	}
 }
 
 func (c cyberdemon) Kuollut() bool {
