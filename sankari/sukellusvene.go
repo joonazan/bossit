@@ -1,6 +1,6 @@
 package sankari
 
-// Kuun pimeältä puolelta tullut natsizombitohtori, jolla on vetypommin kaavat
+// Kuun pimeältä puolelta tullut natsizombitohtori, jolla on vetypommin kaavat,
 // on Englannin kanaalissa sukellusveneessä. Se on tietenkin upotettava!
 //
 // Olet järjestänyt laivat riviin kanaalin pinnalle.
